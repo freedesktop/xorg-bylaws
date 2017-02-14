@@ -3,8 +3,9 @@
 
 \begin{document}
 \title{BYLAWS of the X.Org Foundation}
+\immediate\write18{git log -1 --format="\%cD" \jobname.tex | cut -c 2- > \jobname.info}
+\date{\input{\jobname.info}}
 \maketitle
-\date{}
 
 BE IT ENACTED AND IT IS HEREBY ENACTED as a By-law of the X.Org Foundation
 (hereinafter called "X.Org") as follows:
