@@ -3,7 +3,7 @@
 
 \NeedsTeXFormat{LaTeX2e}[1994/06/01]
  
-\ProvidesClass{bylaws}[2013/11/10 v0.0.1 Document class for typesetting bylaws]
+\ProvidesClass{xorgdocs}[2013/11/10 v0.0.1 Document class for typesetting bylaws]
  
 \LoadClass{article}
  
